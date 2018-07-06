@@ -18,6 +18,7 @@ public class Desk extends OfficeEquipment {
 		super(NAME, PRICE);
 	}
 
+	// huh
 	@Override
 	public OfficeEquipment issueEquipment() {
 		return new Desk();
